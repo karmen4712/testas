@@ -1,0 +1,42 @@
+
+#mem-play {
+  
+  max-width: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mem-card {
+  background: rgb(17, 126, 250);
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.mem-card.open {
+  background: #fea;
+}
+.mem-card.ok {
+  background: #cfffc2;
+}
+
+.button {
+  position: absolute;
+  display: inline-block;
+  top: auto;
+  left: 45.5%;
+  padding: 16px 30px;
+  background-color: #d61010;
+  color: black;
+  font-size: 25px;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+
+html, body {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
